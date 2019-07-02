@@ -46,6 +46,10 @@
 > - `kubectl get service`
 > - `kubectl get services`
 
+#### Verificar los replica set
+> - `kubectl get replicaset`
+> - `kubectl get rs`
+
 #### Eliminar un servicio
 > `kubectl delete service hello-node`
 
@@ -60,3 +64,6 @@
 
 #### Verificar los pod y servicios de 
 > `kubectl get pod,svc -n kube-system`
+
+#### Ejecutar proxy
+> `kubectl proxy`
